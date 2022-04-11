@@ -17,7 +17,7 @@ dbConnect();
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.json('Hello buddy');
+    res.json('Welcome to Expense Tracker API');
 });
 
 //routes
